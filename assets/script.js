@@ -236,11 +236,14 @@ const i18n = {
 
 // --- Global Variables & State ---
 const AVAILABLE_MODELS = [
-    'gemini-2.5-pro',
-    'gemini-2.5-flash',
-    'gemini-2.0-flash',
-    'gemini-2.5-flash-lite',
-    'gemini-2.0-flash-lite'
+   'models/gemini-3-flash-preview',
+    'models/gemini-3-pro-preview',
+    'models/gemini-2.5-pro',
+    'models/gemini-2.5-flash-lite',
+    'models/gemini-2.0-flash',
+    'models/gemini-2.0-flash-lite',
+    'models/gemini-flash-latest',
+    'models/gemini-flash-lite-latest''
 ];
 
 let uiLang = 'en';
